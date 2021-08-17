@@ -1,5 +1,5 @@
 # jq-deepest-copy
-Create a deep copy of a set of matched elements with the dynamic state of all form elements copied to the cloned elements.
+Create a deep copy of a set of matched elements while preserving the dynamic state of any matched form elements.
 
 ### Example Use Case w/ a ***"select"*** element: 
 1. A user clicks the ```$('select#favorite-color')``` dropdown and clicks the ```$('option.red')``` option. 
