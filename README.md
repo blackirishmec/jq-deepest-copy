@@ -1,11 +1,15 @@
 # jq-deepest-copy
+**FUNCTION:**
 Create a deep copy of a set of matched elements while preserving the dynamic state of any matched form elements.
 
+--------------------------
 ### Example Use Case w/ a ***"select"*** element: 
+**ACTION:**
 1. A user clicks the ```$('select#favorite-color')``` dropdown and clicks the ```$('option.red')``` option. 
 2. A user then clicks the ```$('button#clone-li')``` button.
 
-- **OUTCOME:** The ```$('li.color-picker')``` list item is cloned and appended to the ```$('ul.last')``` unordered list, WHILE retaining the user selected ```$('option.red')``` option in the cloned ```$('select#favorite-color')``` dropdown.
+**OUTCOME:** 
+- The ```$('li.color-picker')``` list item is cloned and appended to the ```$('ul.last')``` unordered list, WHILE retaining the user selected ```$('option.red')``` option in the cloned ```$('select#favorite-color')``` dropdown.
 
 ```html
 <ul class="first">
